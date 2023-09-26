@@ -1,3 +1,3 @@
-variable "aws_instance" {
-  instance_type = "t2.micro"
+variable "instance_type" {
+  default = "t2.micro"
 }
